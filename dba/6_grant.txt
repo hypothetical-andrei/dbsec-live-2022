@@ -1,0 +1,4 @@
+GRANT SELECT,insert,update on roleexamples.* TO 'alfa'@'localhost';
+GRANT drop on roleexamples.* TO 'alfa'@'localhost';
+FLUSH PRIVILEGES;
+

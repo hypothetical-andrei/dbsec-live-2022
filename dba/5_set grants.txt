@@ -1,0 +1,1 @@
+SHOW GRANTS FOR 'andrei123'@'localhost';
