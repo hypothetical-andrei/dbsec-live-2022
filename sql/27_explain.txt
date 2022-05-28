@@ -1,0 +1,5 @@
+explain SELECT st.student_id,st.name,s.salary
+FROM students st
+right JOIN salaries s ON st.student_id = s.student_id
+LIMIT 0 , 30;
+

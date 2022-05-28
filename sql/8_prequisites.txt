@@ -1,0 +1,45 @@
+INSERT INTO  `ismv3`.`projects` (
+`project_id` ,
+`project_name` ,
+`project_description` ,
+`project_budget` ,
+`start_date` ,
+`due_date` ,
+`leader_id`
+)
+VALUES (
+'2',  'another important project',  'a few words',  '120000',  '2011-02-26',  '2011-02-27',  '1'
+);
+
+INSERT INTO  `ismv3`.`projects` (
+`project_id` ,
+`project_name` ,
+`project_description` ,
+`project_budget` ,
+`start_date` ,
+`due_date` ,
+`leader_id`
+)
+VALUES (
+'1',  'important project',  'a few words',  '100000',  '2011-02-26',  '2011-02-27',  '1'
+);
+
+INSERT INTO  `ismv3`.`students` (
+`student_id` ,
+`name` ,
+`telephone` ,
+`faculty_code`
+)
+VALUES (
+'3',  'john smith',  '444444',  1
+);
+
+INSERT INTO  `ismv3`.`students` (
+`student_id` ,
+`name` ,
+`telephone` ,
+`faculty_code`
+)
+VALUES (
+'4',  'jane smith',  '444444',  '2'
+);

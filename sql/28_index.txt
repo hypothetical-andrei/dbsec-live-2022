@@ -1,0 +1,14 @@
+create index s_idx2 on salaries(salary) 
+
+EXPLAIN SELECT max(salary) 
+FROM  `salaries` 
+USE INDEX ( s_idx2 ) 
+WHERE salary >100
+LIMIT 0 , 30;
+
+
+EXPLAIN SELECT max(salary) 
+FROM  `salaries` 
+ignore INDEX ( s_idx2 ) 
+WHERE salary >100
+LIMIT 0 , 30;

@@ -1,0 +1,6 @@
+explain SELECT students.name, salaries.salary, faculties.name, projects.project_description
+FROM students
+JOIN salaries ON students.student_id = salaries.student_id
+JOIN faculties ON students.faculty_code = faculties.faculty_code
+JOIN projects ON salaries.project_id = projects.project_id
+LIMIT 0 , 30;

@@ -1,0 +1,10 @@
+CREATE TABLE  `ismv3`.`projects` (
+`project_id` INT NOT NULL ,
+`project_name` VARCHAR( 255 ) NOT NULL ,
+`project_description` VARCHAR( 255 ) NOT NULL ,
+`project_budget` INT NOT NULL ,
+`start_date` DATE NOT NULL ,
+`due_date` DATE NOT NULL ,
+`leader_id` INT NOT NULL
+) ENGINE = MYISAM ;
+

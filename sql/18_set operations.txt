@@ -1,0 +1,8 @@
+SELECT * FROM students
+union
+select * from backup;
+
+SELECT * FROM students
+union all
+select * from backup;
+

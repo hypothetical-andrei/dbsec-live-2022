@@ -1,0 +1,16 @@
+CREATE TABLE  `ismv3`.`leaders` (
+`leader_id` INT NOT NULL ,
+`name` VARCHAR( 255 ) NOT NULL ,
+`email` VARCHAR( 255 ) NOT NULL
+) ENGINE = MYISAM ;
+
+CREATE TABLE `ismv3`.`faculties` (
+  `faculty_code` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL
+) ENGINE=MyISAM;
+
+CREATE TABLE  `ismv3`.`salaries` (
+`student_id` INT NOT NULL ,
+`project_id` INT NOT NULL ,
+`salary` INT NOT NULL
+) ENGINE = MYISAM ;

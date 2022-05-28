@@ -1,0 +1,4 @@
+alter table salaries add constraint check(salary>0);
+
+
+http://blog.christosoft.de/2012/08/mysql-check-constraint/

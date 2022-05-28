@@ -1,0 +1,9 @@
+SELECT * 
+FROM students
+WHERE student_id
+IN (
+SELECT student_id
+FROM salaries
+WHERE faculty_code = 1
+);
+

@@ -1,0 +1,26 @@
+SELECT * 
+FROM students
+right JOIN salaries ON students.student_id = salaries.student_id
+LIMIT 0 , 30
+
+SELECT * 
+FROM students
+left JOIN salaries ON students.student_id = salaries.student_id
+LIMIT 0 , 30;
+
+--full join is not supported
+SELECT * 
+FROM students
+full JOIN salaries ON students.student_id = salaries.student_id
+LIMIT 0 , 30
+
+SELECT * 
+FROM students
+left JOIN salaries ON students.student_id = salaries.student_id
+UNION ALL
+SELECT * 
+FROM students
+right JOIN salaries ON students.student_id = salaries.student_id
+WHERE students.student_id IS NULL;
+		
+http://explainextended.com/2009/04/06/emulating-full-outer-join-in-mysql/

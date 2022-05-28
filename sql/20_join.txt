@@ -1,0 +1,5 @@
+SELECT * 
+FROM students
+JOIN salaries ON students.student_id = salaries.student_id
+LIMIT 0 , 30;
+

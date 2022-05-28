@@ -1,0 +1,11 @@
+alter table students ENGINE = INNODB;
+set autocommit = 0;
+start transaction;
+insert into students values(7,'test3','444',1);
+update students set faculty_code = 2 where student_id = 7;
+commit;
+
+start transaction;
+insert into students values(8,'test4','444',1);
+rollback;
+set autocommit = 1;

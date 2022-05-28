@@ -1,0 +1,12 @@
+SELECT MAX( salary ) 
+FROM salaries;
+
+SELECT COUNT( * ) 
+FROM students;
+
+SELECT Min( salary ) 
+FROM salaries;
+
+SELECT avg( salary ) 
+FROM salaries;
+

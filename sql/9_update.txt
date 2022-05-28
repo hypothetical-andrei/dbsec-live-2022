@@ -1,0 +1,1 @@
+update students set faculty_code = 1 where student_id = 4;

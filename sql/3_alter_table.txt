@@ -1,0 +1,12 @@
+CREATE TABLE  `ismv3`.`students` (
+`student_id` INT NOT NULL ,
+`name` INT NOT NULL ,
+`faculty_code` INT NOT NULL
+) ENGINE = MYISAM ;
+
+ALTER TABLE  `students` CHANGE  `name`  `name` VARCHAR( 13 ) NOT NULL;
+
+ALTER TABLE  `students` CHANGE  `student_id`  `student_id` INT( 13 ) NOT NULL;
+
+ALTER TABLE  `students` ADD  `telephone` VARCHAR( 15 ) NULL AFTER  `name`;
+

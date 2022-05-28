@@ -1,0 +1,30 @@
+INSERT INTO  `ismv3`.`salaries` (
+`student_id` ,
+`project_id` ,
+`salary`
+)
+VALUES (
+'1',  '1',  '1000'
+), (
+'2',  '1',  '2000'
+), (
+'3',  '1',  '1300'
+), (
+'4',  '1',  '1400'
+);
+
+INSERT INTO  `ismv3`.`salaries` (
+`student_id` ,
+`project_id` ,
+`salary`
+)
+VALUES (
+'5',  '2',  '1000'
+), (
+'6',  '2',  '2100'
+), (
+'7',  '2',  '1200'
+), (
+'8',  '2',  '1600'
+);
+

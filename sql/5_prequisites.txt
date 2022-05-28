@@ -1,0 +1,11 @@
+INSERT INTO  `ismv3`.`students` (
+`student_id` ,
+`name` ,
+`telephone` ,
+`faculty_code`
+)
+VALUES (
+'1',  'john doe',  '5555556',  '1'
+), (
+'2',  'jane doe',  '5555555',  '2'
+);

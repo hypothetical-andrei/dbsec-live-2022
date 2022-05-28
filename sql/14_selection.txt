@@ -1,0 +1,5 @@
+SELECT name
+FROM students
+WHERE student_id =3
+LIMIT 0 , 30
+

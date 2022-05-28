@@ -1,0 +1,9 @@
+INSERT INTO  `ismv3`.`faculties` (
+`faculty_code` ,
+`name`
+)
+VALUES (
+'1',  'csie'
+), (
+'2',  'fabbv'
+);

@@ -1,0 +1,10 @@
+ALTER TABLE  `students` ADD PRIMARY KEY (  `student_id` );
+
+--will not work due to primary key constraint violation
+INSERT INTO students
+VALUES ( 1,  'kilgore trout', '555-5555', '1') ;
+
+
+--will work
+INSERT INTO students
+VALUES ( 3,  'kilgore trout',  '555-5555', '2');

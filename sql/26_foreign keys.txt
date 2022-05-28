@@ -1,0 +1,1 @@
+alter table projects add constraint leader_fk foreign key (leader_id) references leaders on delete cascade on update cascade;

@@ -1,0 +1,3 @@
+select avg(salary) from salaries group by project_id having avg(salary)>1400;
+
+
