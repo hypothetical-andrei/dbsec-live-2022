@@ -1,0 +1,17 @@
+students(student_id, student_name, course_name)
+
+Deleting the last student in a course loses information on the course.
+Changing the name of the course for a student leads to inconsistencies.
+If the course is NOT NULL a student cannot be added unless he/she is already enrolled in a course.
+
+students(student_id, student_name)
+courses(course_id,course_name)
+enrollment(course_id,student_id)
+
+
+professors(professor_id, professor_name, course_name)
+
+Deleting a professor can also delete all references to the course
+A professor cannot be hired without a course
+
+TODO: restructure for professor

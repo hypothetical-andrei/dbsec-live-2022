@@ -1,0 +1,2 @@
+-- insert anomaly
+-- can an empty course be added?

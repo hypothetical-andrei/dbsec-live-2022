@@ -1,0 +1,6 @@
+Exercises:
+What anomalies can you detect in the following structure. Can you give a simple solution?
+
+students(student_id, student_name, course_name)
+
+professors(professor_id, professor_name, course_name)
