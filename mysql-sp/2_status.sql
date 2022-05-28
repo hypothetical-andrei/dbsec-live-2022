@@ -1,0 +1,1 @@
+SHOW PROCEDURE STATUS where Db='ism_sp';
