@@ -1,0 +1,14 @@
+employees(PK(employee_number),employee_name, date_of_birth, address, department_code)
+
+phones(PK(phone_number), employee_id)
+
+departments(PK(department_code), department_name, supervisor_id)
+
+Employee name
+Employee number
+Department name
+Department code
+Date of birth
+Address
+Telephone numbers
+Supervisor name (supervisors are also employees)

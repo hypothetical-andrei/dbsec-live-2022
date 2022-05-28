@@ -1,0 +1,6 @@
+Which is the key?
+Which is the highest satisfied FN?
+How can it be decomposed?
+
+a. professors (key(professor_name, class), class_location, professor_address)
+b. classes (id, class, professor_name, professor_dateofbirth)

@@ -1,0 +1,27 @@
+//salary depends on both student and project
+//faculty name depends in faculty code
+FN2
+Projects(
+Project_id
+Project_name
+Project_description
+Project_leader
+Project_leader_email
+Project_budget
+Project_start_date
+Project_due_date
+)
+
+Students(
+Student_CNP
+Student_name 
+Faculty
+Faculty_code
+)
+
+Salaries(
+Student_CNP
+Project_id
+Salary 
+)
+

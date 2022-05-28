@@ -1,0 +1,17 @@
+What we need to represent:
+
+Project id
+Project name
+Project description
+Project leader
+Project leader email
+Project budget
+Student name
+Student CNP
+Faculty
+Student participation in project
+Project start date
+Project due date
+Student faculty
+Faculty code
+Salary

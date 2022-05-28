@@ -1,0 +1,8 @@
+Employee name
+Employee number
+Department name
+Department code
+Date of birth
+Address
+Telephone numbers
+Supervisor name (supervisors are also employees)

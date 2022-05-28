@@ -1,0 +1,36 @@
+//project leader email depends on project leader
+//faculty depends on faculty code
+FN3
+Projects(
+Project_id
+Project_name
+Project_description
+Project_budget
+Project_start_date
+Project_due_date
+Project_leader_id
+)
+
+Leaders(
+Project_leader_id
+Project_leader
+Project_leader_email
+)
+
+Students(
+Student_CNP
+Student_name 
+Faculty_code
+)
+
+Salaries(
+Student_CNP
+Project_id
+Salary 
+)
+
+Faculties(
+Faculty_code
+Faculty
+)
+

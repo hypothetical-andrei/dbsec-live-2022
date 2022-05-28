@@ -1,0 +1,7 @@
+Solution a:
+professors (id, professor_name, professor_address)
+classes (id, class, location, professorid)
+
+Solution b:
+classes (id, class, professorid)
+professors(id, professor_name, dob)
